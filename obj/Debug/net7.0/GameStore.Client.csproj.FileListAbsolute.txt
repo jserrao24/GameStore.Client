@@ -824,3 +824,4 @@ c:\Users\JARED\Desktop\GameStore.Client\obj\Debug\net7.0\GameStore.Client.dll
 c:\Users\JARED\Desktop\GameStore.Client\obj\Debug\net7.0\refint\GameStore.Client.dll
 c:\Users\JARED\Desktop\GameStore.Client\obj\Debug\net7.0\GameStore.Client.pdb
 C:\Users\JARED\Desktop\GameStore.Client\obj\Debug\net7.0\ref\GameStore.Client.dll
+c:\Users\JARED\Desktop\GameStore.Client\obj\Debug\net7.0\GameStore.Client.sourcelink.json
