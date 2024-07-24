@@ -18,4 +18,5 @@ public class Game
     public decimal Price { get; set; }
 
     public DateTime ReleaseDate { get; set; }
+    public string? Notes { get; set; }
 }

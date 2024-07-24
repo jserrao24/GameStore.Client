@@ -29,6 +29,7 @@ else
                 <th>Genre</th>
                 <th class="text-end">Price</th>
                 <th>Release Date</th>
+                <th>Notes</th>
                 <th></th>
             </tr>
         </thead>
@@ -41,11 +42,12 @@ else
                     <td>@game.Genre</td>
                     <td class="text-end">@game.Price.ToString("C2")</td>
                     <td>@game.ReleaseDate.ToString("MM/dd/yyyy")</td>
+                    <td>@game.Notes</td>
                     <td>
                         <button class="btn btn-primary" @onclick="(() => EditGame(game.Id))"><i
-                        class="oi oi-pencil"></i></button>
+                                class="oi oi-pencil"></i></button>
                         <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                    @onclick="(() => currentGame = game)"><i class="oi oi-x"></i></button>
+                            @onclick="(() => currentGame = game)"><i class="oi oi-x"></i></button>
                     </td>
                 </tr>
             }

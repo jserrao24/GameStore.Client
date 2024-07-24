@@ -12,7 +12,8 @@ public static class GameClient
             Name = "Street Fighter II",
             Genre = "Fighting",
             Price = 19.99M,
-            ReleaseDate = new DateTime(1991, 2, 1)
+            ReleaseDate = new DateTime(1991, 2, 1),
+            Notes = ""
         },
         new Game()
         {
@@ -21,7 +22,8 @@ public static class GameClient
             Genre = "Roleplaying",
             Price = 59.99M,
             ReleaseDate =
-            new DateTime(2010, 9, 30)
+            new DateTime(2010, 9, 30),
+            Notes = ""
         },
         new Game()
         {
@@ -29,7 +31,8 @@ public static class GameClient
             Name = "FIFA 23",
             Genre = "Sports",
             Price = 69.99M,
-            ReleaseDate = new DateTime(2022, 9, 27)
+            ReleaseDate = new DateTime(2022, 9, 27),
+            Notes = ""
         }
     };
 
@@ -56,6 +59,7 @@ public static class GameClient
         existingGame.Genre = updatedGame.Genre;
         existingGame.Price = updatedGame.Price;
         existingGame.ReleaseDate = updatedGame.ReleaseDate;
+        existingGame.Notes = updatedGame.Notes;
     }
 
     public static void DeleteGame(int id)
