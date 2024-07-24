@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JARED\\Desktop\\GameStore.Client\\GameStore.Client.csproj": {}
+    "C:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Group project\\GameStore.Client\\GameStore.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JARED\\Desktop\\GameStore.Client\\GameStore.Client.csproj": {
+    "C:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Group project\\GameStore.Client\\GameStore.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JARED\\Desktop\\GameStore.Client\\GameStore.Client.csproj",
+        "projectUniqueName": "C:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Group project\\GameStore.Client\\GameStore.Client.csproj",
         "projectName": "GameStore.Client",
-        "projectPath": "C:\\Users\\JARED\\Desktop\\GameStore.Client\\GameStore.Client.csproj",
-        "packagesPath": "C:\\Users\\JARED\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JARED\\Desktop\\GameStore.Client\\obj\\",
+        "projectPath": "C:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Group project\\GameStore.Client\\GameStore.Client.csproj",
+        "packagesPath": "C:\\Users\\gawah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gawah\\Desktop\\School\\Spring 2024\\cse325\\Group project\\GameStore.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JARED\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\gawah\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,13 +56,13 @@
             "Microsoft.NET.ILLink.Analyzers": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
+              "version": "[7.0.100-1.23401.1, )",
               "autoReferenced": true
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
+              "version": "[7.0.100-1.23401.1, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
@@ -84,7 +85,19 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
               "version": "[7.0.20, 7.0.20]"
             }
           ],
@@ -93,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
